@@ -1,0 +1,51 @@
+﻿Rank,Airport,Location,Country,Code,Passengers,Year,Continent
+1,China Guangzhou Baiyun International Airport,"Baiyun-Huadu, Guangzhou, Guangdong",China,CAN/ZGGG,43760427,2020,Asia
+2,United States Hartsfield–Jackson Atlanta International Airport,"Atlanta, Georgia",United States,ATL/KATL,42918685,2020,North America
+3,China Chengdu Shuangliu International Airport,"Shuangliu-Wuhou, Chengdu, Sichuan",China,CTU/ZUUU,40741509,2020,Asia
+4,United States Dallas/Fort Worth International Airport,"Dallas-Fort Worth, Texas",United States,DFW/KDFW,39364990,2020,North America
+5,China Shenzhen Bao'an International Airport,"Bao'an, Shenzhen, Guangdong",China,SZX/ZGSZ,37916059,2020,Asia
+6,China Chongqing Jiangbei International Airport,"Yubei, Chongqing",China,CKG/ZUCK,34937789,2020,Asia
+7,China Beijing Capital International Airport,"Chaoyang-Shunyi, Beijing",China,PEK/ZBAA,34513827,2020,Asia
+8,United States Denver International Airport,"Denver, Colorado",United States,DEN/KDEN,33741129,2020,North America
+9,China Kunming Changshui International Airport,"Guandu, Kunming, Yunnan",China,KMG/ZPPP,32989127,2020,Asia
+10,China Shanghai Hongqiao International Airport,"Changning-Minhang, Shanghai",China,SHA/ZSSS,31165641,2020,Asia
+1,United States Hartsfield–Jackson Atlanta International Airport,"Atlanta, Georgia",United States,ATL/KATL,110531300,2019,North America
+2,China Beijing Capital International Airport,"Chaoyang-Shunyi, Beijing",China,PEK/ZBAA,100011438,2019,Asia
+3,United States Los Angeles International Airport,"Los Angeles, California",United States,LAX/KLAX,88068013,2019,North America
+4,United Arab Emirates Dubai International Airport,"Garhoud, Dubai",United Arab Emirates,DXB/OMDB,86396757,2019,Asia
+5,Japan Tokyo Haneda Airport,"Ōta, Tokyo",Japan,HND/RJTT,85505054,2019,Asia
+6,United States O'Hare International Airport,"Chicago, Illinois",United States,ORD/KORD,84372618,2019,North America
+7,United Kingdom Heathrow Airport,"Hillingdon, London",United Kingdom,LHR/EGLL,80888305,2019,Europe
+8,China Shanghai Pudong International Airport,"Pudong, Shanghai",China,PVG/ZSPD,76153455,2019,Asia
+9,France Charles de Gaulle Airport,"Roissy-en-France, Île-de-France",France,CDG/LFPG,76150009,2019,Europe
+10,United States Dallas/Fort Worth International Airport,"Dallas-Fort Worth, Texas",United States,DFW/KDFW,75066956,2019,North America
+1,United States Hartsfield–Jackson Atlanta International Airport,"Atlanta, Georgia",United States,ATL/KATL,107394029,2018,North America
+2,China Beijing Capital International Airport,"Chaoyang-Shunyi, Beijing",China,PEK/ZBAA,100983290,2018,Asia
+3,United Arab Emirates Dubai International Airport,"Garhoud, Dubai",United Arab Emirates,DXB/OMDB,89149387,2018,Asia
+4,United States Los Angeles International Airport,"Los Angeles, California",United States,LAX/KLAX,87534384,2018,North America
+5,Japan Tokyo Haneda Airport,"Ōta, Tokyo",Japan,HND/RJTT,87502720,2018,Asia
+6,United States O'Hare International Airport,"Chicago, Illinois",United States,ORD/KORD,83339186,2018,North America
+7,United Kingdom Heathrow Airport,"Hillingdon, London",United Kingdom,LHR/EGLL,80126320,2018,Europe
+8,Hong Kong Hong Kong International Airport,"Chek Lap Kok, Islands, New Territories","Hong Kong SAR, China",HKG/VHHH,74517402,2018,Asia
+9,China Shanghai Pudong International Airport,"Pudong, Shanghai",China,PVG/ZSPD,74006331,2018,Asia
+10,France Charles de Gaulle Airport,"Roissy-en-France, Île-de-France",France,CDG/LFPG,72229723,2018,Europe
+1,United States Hartsfield–Jackson Atlanta International Airport,"Atlanta, Georgia",United States,ATL/KATL,103902992,2017,North America
+2,China Beijing Capital International Airport,"Chaoyang-Shunyi, Beijing",China,PEK/ZBAA,95786442,2017,Asia
+3,United Arab Emirates Dubai International Airport,"Garhoud, Dubai",United Arab Emirates,DXB/OMDB,88242099,2017,Asia
+4,United States Los Angeles International Airport,"Los Angeles, California",United States,LAX/KLAX,84557968,2017,North America
+5,United States O'Hare International Airport,"Chicago, Illinois",United States,ORD/KORD,79828183,2017,North America
+6,United Kingdom Heathrow Airport,"Hillingdon, London",United Kingdom,LHR/EGLL,78014598,2017,Europe
+7,Japan Tokyo Haneda Airport,"Ōta, Tokyo",Japan,HND/RJTT,76476251,2017,Asia
+8,Hong Kong Hong Kong International Airport,"Chek Lap Kok, Islands, New Territories","Hong Kong SAR, China",HKG/VHHH,72665078,2017,Asia
+9,China Shanghai Pudong International Airport,"Pudong, Shanghai",China,PVG/ZSPD,70001237,2017,Asia
+10,France Charles de Gaulle Airport,"Roissy-en-France, Île-de-France",France,CDG/LFPG,69471442,2017,Europe
+1,United States Hartsfield–Jackson Atlanta International Airport,"Atlanta, Georgia",United States,ATL/KATL,104171935,2016,North America
+2,China Beijing Capital International Airport,"Chaoyang-Shunyi, Beijing",China,PEK/ZBAA,94393454,2016,Asia
+3,United Arab Emirates Dubai International Airport,"Garhoud, Dubai",United Arab Emirates,DXB/OMDB,83654250,2016,Asia
+4,United States Los Angeles International Airport,"Los Angeles, California",United States,LAX/KLAX,80921527,2016,North America
+5,Japan Tokyo Haneda Airport,"Ōta, Tokyo",Japan,HND/RJTT,79699762,2016,Asia
+6,United States O'Hare International Airport,"Chicago, Illinois",United States,ORD/KORD,78327479,2016,North America
+7,United Kingdom Heathrow Airport,"Hillingdon, London",United Kingdom,LHR/EGLL,75715474,2016,Europe
+8,Hong Kong Hong Kong International Airport,"Chek Lap Kok, Islands, New Territories","Hong Kong SAR, China",HKG/VHHH,70314462,2016,Asia
+9,China Shanghai Pudong International Airport,"Pudong, Shanghai",China,PVG/ZSPD,66002414,2016,Asia
+10,France Charles de Gaulle Airport,"Roissy-en-France, Île-de-France",France,CDG/LFPG,65933145,2016,Europe
