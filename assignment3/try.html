@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Airports</title>
+    <link rel = "stylesheet" href = "try.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  </head>
+  <body>
+    <div class = "fullpage">
+        <!-- <img src = "airport.gif" width="200" height="200" class="img">  -->
+        <h1> 
+            Airports of the World 
+        </h1>
+    <div id="vis" class = "vega"></div>
+    <p>The map above shows the top 50 busisest airports in the year 2020. The air transport ecosystem and the airport sector in particular were among the industries most affected by the COVID-19 health crisis, due to the industry’s global nature. The second week of March 2020 came as a game-changer, when an overwhelming majority of national governments implemented strict confinement measures which eventually resulted in what the IMF later characterized as the “Great Lockdown”—the worst economic downturn since the Great Depression of the 1920s. The outbreak resulted in fundamental shifts in all the demand and supply parameters for air transportation and airport infrastructure and services.After a decade of consistent and robust growth in global passenger traffic, the COVID-19 pandemic virtually halted activity at airports around the world in the second quarter of 2020. As a result, the total number of passengers for the year fell sharply from 2019, to a level the world’s airports had not seen since 1997.
+    </p>
+    <div id = "vis2"></div>
+    <br><br><br>
+    <div id = "vis3"></div>
+</div>
+
+    <script type="text/javascript">
+      var yourVlSpec = {
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": 800,
+"height": 500,
+"title": "Top 50 Busiest Airports of 2020",
+"projection": {"type": "equalEarth"},
+"layer": [
+{
+"data": {
+"url": "https://raw.githubusercontent.com/JiazhouLiu/FIT3179/main/VegaLite/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+"format": {"type": "topojson", "feature":
+"ne_110m_admin_0_countries"}
+},
+"mark": {"type": "geoshape", "fill": "lightgray", "stroke":
+"white"}
+},{
+"data": {
+"url":
+"https://raw.githubusercontent.com/asha0113/FIT3179/main/Airports.csv"
+},
+"mark": {"type": "circle", "size": 100},
+"encoding": {
+"longitude": {"field": "Longitude", "type":
+"quantitative"},
+"latitude": {"field": "Latitude", "type":
+"quantitative"},
+"color": {
+"field": "Continent","type": "nominal",
+"scale": {
+"domain": [
+"North America",
+"South America",
+"Europe",
+"Africa",
+"Asia",
+"Oceania"
+],
+"range": [
+"#e41a1c",
+"#984ea3",
+"#ff7f00",
+"#a6cee3",
+"#377eb8",
+"#a65628"
+]
+}
+},
+"tooltip": [
+  {"field": "Airport", "type": "nominal"},
+  {"field": "Rank", "type": "ordinal"},
+  {"field": "Passengers", "type": "ordinal", "title": "Number of Passengers"}
+]
+}
+}
+]
+}
+
+var bubblechart = {
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": 800,
+"height": 500,
+"title": "Top 50 Airports",
+"data": {
+"url": "https://raw.githubusercontent.com/asha0113/FIT3179/fd8af708f93f161657f90837fd28da485616711d/Airports%202.csv"
+},
+"params": [
+{
+"name": "Continent_selection","bind": {
+"input": "select",
+"options": [
+null,
+"North America",
+"South America",
+"Europe",
+"Africa",
+"Asia",
+"Oceania"
+],
+"labels":[
+"Show All",
+"North America",
+"South America",
+"Europe",
+"Africa",
+"Asia",
+"Oceania"
+],
+"name": "Continent Selection: "
+}
+},
+{
+  "name": "Year_selection", "bind": {
+    "input": "select",
+    "options": [
+      null,
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "labels": [
+      "Show All",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "name": "Year Selection: "
+  }
+}
+],
+"transform": [
+{"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
+{"filter": "Year_selection == null || datum.Year == Year_selection"}
+
+],
+"mark": "circle",
+"encoding": {
+"x": {
+"field": "Passengers",
+"type": "quantitative",
+"title": "Number of passengers",
+"axis": {"tickCount": 7},
+"scale": {"type": "log", "domain": [25000000, 120000000]}
+},
+"y": {
+"field": "Rank",
+"type": "quantitative",
+"title": "Rank",
+"axis": {"tickCount": 7},
+"scale": {"type": "linear", "domain": [11, 0]}
+},
+"color": {
+"field": "Continent",
+"type": "nominal",
+"scale": {
+"domain": [
+"North America",
+"South America",
+"Europe",
+"Africa",
+"Asia",
+"Oceania"
+],
+"range": [
+"#e41a1c",
+"#984ea3",
+"#ff7f00",
+"#a6cee3",
+"#377eb8",
+"#a65628"
+]}
+},
+"opacity": {"value": 0.6},
+"size": {
+"field": "Passengers",
+"type": "quantitative",
+"scale": {
+"type": "threshold",
+"domain": [15000000, 20000000, 30000000, 400000000, 50000000],
+"range": [100, 200, 300, 400, 500, 600]
+},
+"legend": {"format": ".1s"}
+},
+"tooltip": [
+{"field": "Rank", "type": "quantitative"},
+{"field": "Year", "type": "quantitative"},
+{"field": "Airport", "type": "nominal"},
+{"field": "Code", "type": "nominal", "title": "Airport Code"},
+{"field": "Country", "type": "nominal"},
+{"field": "Continent", "type": "nominal"},
+{"field": "Passengers", "type": "quantitative", "title": "Number of Passengers"}
+]
+}
+}
+
+var barchart = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": 800,
+"height": 500,
+"title": "Passenger Trips (Domestic flights, Australia)",
+  "data": {"url": "https://raw.githubusercontent.com/asha0113/FIT3179/main/Book1.csv"},
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Year_indv", "type": "temporal", "title": "Year"},
+    "y": {"field": "Sum of Passenger_Trips", "type": "quantitative", "title": "Sum of Passenger Trips"},
+  "tooltip":[
+    {"field": "Year_indv", "type": "temporal", "title": "Year", "timeUnit": "year"},
+    {"field": "Sum of Passenger_Trips", "type": "quantitative", "title": "Sum of Passenger Trips"}
+  ],
+   "color": {"value": "#FF0000"}
+  }
+}
+
+      vegaEmbed('#vis', yourVlSpec);
+      vegaEmbed('#vis2', bubblechart);
+      vegaEmbed('#vis3', barchart);
+    </script>
+  </body>
+</html>

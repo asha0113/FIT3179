@@ -1,0 +1,15 @@
+.fullpage{
+    background-color: rgb(235, 221, 187);
+}
+h1{
+    color: rgb(113, 155, 181);
+    text-align: center;
+    font-size: 25px;
+}
+img{
+    float: right;
+    margin: 5px;
+}
+vega{
+    align-items: center;
+}
