@@ -1,6 +1,6 @@
 ﻿Rank,Airport,Location,Country,Code,Passengers,Year,Latitude,Longitude,Continent
 1,China Guangzhou Baiyun International Airport,"Baiyun-Huadu, Guangzhou, Guangdong",China,CAN/ZGGG,43760427,2020,23.3925,113.298889,Asia
-2,United States Hartsfield–Jackson Atlanta International Airport,"Atlanta, Georgia",United States,ATL/KATL,42918685,2020,33.640411,-84.419853,Asia
+2,United States Hartsfield–Jackson Atlanta International Airport,"Atlanta, Georgia",United States,ATL/KATL,42918685,2020,33.640411,-84.419853,North America
 3,China Chengdu Shuangliu International Airport,"Shuangliu-Wuhou, Chengdu, Sichuan",China,CTU/ZUUU,40741509,2020,30.5737,103.9415,Asia
 4,United States Dallas/Fort Worth International Airport,"Dallas-Fort Worth, Texas",United States,DFW/KDFW,39364990,2020,32.89748,-97.040443,North America
 5,China Shenzhen Bao'an International Airport,"Bao'an, Shenzhen, Guangdong",China,SZX/ZGSZ,37916059,2020,22.6368,113.8146,Asia
@@ -11,7 +11,7 @@
 10,China Shanghai Hongqiao International Airport,"Changning-Minhang, Shanghai",China,SHA/ZSSS,31165641,2020,31.1918955.,121.3370074,Asia
 11,China Xi'an Xianyang International Airport,"Weicheng, Xianyang, Shaanxi",China,XIY/ZLXY,31073884,2020,34.4415,108.7508,Asia
 12,Japan Tokyo Haneda Airport,"Ōta, Tokyo",Japan,HND/RJTT,30965027,2020,35.553333,139.781113,Asia
-13,United States O'Hare International Airport,"Chicago, Illinois",United States,ORD/KORD,30860251,2020,41.978611,-87.904724,Asia
+13,United States O'Hare International Airport,"Chicago, Illinois",United States,ORD/KORD,30860251,2020,41.978611,-87.904724,North America
 14,China Shanghai Pudong International Airport,"Pudong, Shanghai",China,PVG/ZSPD,30476531,2020,31.143333,121.805275,Asia
 15,United States Los Angeles International Airport,"Los Angeles, California",United States,LAX/KLAX,28779527,2020,33.942791,-118.410042,North America
 16,India Indira Gandhi International Airport,Delhi,India,DEL/VIDP,28501000,2020,28.55616,77.100281,Asia
@@ -20,7 +20,7 @@
 19,United Arab Emirates Dubai International Airport,"Garhoud, Dubai",United Arab Emirates,DXB/OMDB,25900000,2020,25.252777,55.364445,Asia
 20,Turkey Istanbul Airport,"Arnavutköy, Istanbul",Turkey,IST/LTFM,23409000,2020,40.898335,29.309168,Asia
 21,France Charles de Gaulle Airport,"Roissy-en-France, Île-de-France",France,CDG/LFPG,22257469,2020,49.009724,2.547778,Europe
-22,United Kingdom Heathrow Airport,"Hillingdon, London",United Kingdom,LHR/EGLL,22109726,2020,51.47002,-0.454295,North America
+22,United Kingdom Heathrow Airport,"Hillingdon, London",United Kingdom,LHR/EGLL,22109726,2020,51.47002,-0.454295,Europe
 23,Mexico Mexico City International Airport,"Venustiano Carranza, Mexico City",Mexico,MEX/MMMX,21981711,2020, 19.44,-99.07,North America
 24,United States Phoenix Sky Harbor International Airport,"Phoenix, Arizona",United States,PHX/KPHX,21928708,2020,33.43,-112.01,North America
 25,Vietnam Tan Son Nhat International Airport,"Tân Bình District, Ho Chi Minh City",Vietnam,SGN/VVTS,21900000,2020,10.81,106.65,Asia
@@ -46,6 +46,6 @@
 45,China Haikou Meilan International Airport,"Lingshan, Haikou, Hainan",China,HAK/ZJHK,16490216,2020,19.9342,110.4553,Asia
 46,United States Fort Lauderdale–Hollywood International Airport,"Broward County, Florida",United States,FLL/KFLL,16484132,2020,26.057,-80.1593,North America
 47,United States San Francisco International Airport,"San Mateo County, California",United States,SFO/KSFO,16409625,2020,37.615223,-122.389977,North America
-48,Russia Moscow Domodedovo Airport,"Domodedovo, Moscow Oblast",Russia,DME/UUDD,16300000,2020,55.410307,37.902451,North America
+48,Russia Moscow Domodedovo Airport,"Domodedovo, Moscow Oblast",Russia,DME/UUDD,16300000,2020,55.410307,37.902451,Europe
 49,China Beijing Daxing International Airport,"Daxing District, Beijing",China,PKX/ZBAD,16091449,2020,40.072498,116.597504,Asia
-50,United States Newark Liberty International Airport,"Newark, New Jersey",United States,EWR/KEWR,15892892,2020,40.6895314,74.17,North America
+50,United States Newark Liberty International Airport,"Newark, New Jersey",United States,EWR/KEWR,15892892,2020,74.17,40.6895314,North America
