@@ -4,7 +4,7 @@
 3,China Chengdu Shuangliu International Airport,"Shuangliu-Wuhou, Chengdu, Sichuan",China,CTU/ZUUU,40741509,2020,30.5737,103.9415
 4,United States Dallas/Fort Worth International Airport,"Dallas-Fort Worth, Texas",United States,DFW/KDFW,39364990,2020,32.89748,-97.040443
 5,China Shenzhen Bao'an International Airport,"Bao'an, Shenzhen, Guangdong",China,SZX/ZGSZ,37916059,2020,22.6368,113.8146
-6,China Chongqing Jiangbei International Airport,"Yubei, Chongqing",China,CKG/ZUCK,34937789,2020,106.6419983,29.71920013
+6,China Chongqing Jiangbei International Airport,"Yubei, Chongqing",China,CKG/ZUCK,34937789,2020,29.71920013,106.6419983
 7,China Beijing Capital International Airport,"Chaoyang-Shunyi, Beijing",China,PEK/ZBAA,34513827,2020,40.072498,116.597504
 8,United States Denver International Airport,"Denver, Colorado",United States,DEN/KDEN,33741129,2020,39.849312,-104.673828
 9,China Kunming Changshui International Airport,"Guandu, Kunming, Yunnan",China,KMG/ZPPP,32989127,2020,24.9887,102.7395
@@ -14,7 +14,7 @@
 13,United States O'Hare International Airport,"Chicago, Illinois",United States,ORD/KORD,30860251,2020,41.978611,-87.904724
 14,China Shanghai Pudong International Airport,"Pudong, Shanghai",China,PVG/ZSPD,30476531,2020,31.143333,121.805275
 15,United States Los Angeles International Airport,"Los Angeles, California",United States,LAX/KLAX,28779527,2020,33.942791,-118.410042
-16,India Indira Gandhi International Airport,Delhi,India,DEL/VIDP,28501000,2020,77.100281,28.55616
+16,India Indira Gandhi International Airport,Delhi,India,DEL/VIDP,28501000,2020,28.55616,77.100281
 17,China Hangzhou Xiaoshan International Airport,"Xiaoshan, Hangzhou, Zhejiang",China,HGH/ZSHC,28224342,2020,30.2243,120.434
 18,United States Charlotte Douglas International Airport,"Charlotte, North Carolina",United States,CLT/KCLT,27200000,2020,35.21389,-80.943054
 19,United Arab Emirates Dubai International Airport,"Garhoud, Dubai",United Arab Emirates,DXB/OMDB,25900000,2020,25.252777,55.364445
@@ -27,7 +27,7 @@
 26,United States Orlando International Airport,"Orlando, Florida",United States,MCO/KMCO,21617803,2020,28.43,-81.3
 27,China Zhengzhou Xinzheng International Airport,"Xinzheng, Zhengzhou, Henan",China,CGO/ZHCC,21406709,2020,34.51,113.83
 28,South Korea Jeju International Airport,"Jeju City, Jeju Province",South Korea,CJU/RKPC,21054696,2020,33.5,126.4892
-29,Netherlands Amsterdam Airport Schiphol,"Haarlemmermeer, North Holland",Netherlands,AMS/EHAM,20887174,2020,4.764167,52.308056
+29,Netherlands Amsterdam Airport Schiphol,"Haarlemmermeer, North Holland",Netherlands,AMS/EHAM,20887174,2020,52.308056,4.764167
 30,Brazil São Paulo/Guarulhos International Airport,Guarulhos,Brazil,GRU/SBGR,20322520,2020,-23.4258,-46.4683
 31,United States Seattle–Tacoma International Airport,"SeaTac, Washington",United States,SEA/KSEA,20061507,2020,47.443546,-122.301659
 32,China Nanjing Lukou International Airport,"Jiangning District, Nanjing, Jiangsu",China,NKG/ZSNJ,19906576,2020,31.7387,118.8572
