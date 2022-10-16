@@ -8,7 +8,7 @@
 7,China Beijing Capital International Airport,"Chaoyang-Shunyi, Beijing",China,PEK/ZBAA,34513827,2020,40.072498,116.597504,Asia
 8,United States Denver International Airport,"Denver, Colorado",United States,DEN/KDEN,33741129,2020,39.849312,-104.673828,North America
 9,China Kunming Changshui International Airport,"Guandu, Kunming, Yunnan",China,KMG/ZPPP,32989127,2020,24.9887,102.7395,Asia
-10,China Shanghai Hongqiao International Airport,"Changning-Minhang, Shanghai",China,SHA/ZSSS,31165641,2020,31.1918955.,121.3370074,Asia
+
 11,China Xi'an Xianyang International Airport,"Weicheng, Xianyang, Shaanxi",China,XIY/ZLXY,31073884,2020,34.4415,108.7508,Asia
 12,Japan Tokyo Haneda Airport,"Ōta, Tokyo",Japan,HND/RJTT,30965027,2020,35.553333,139.781113,Asia
 13,United States O'Hare International Airport,"Chicago, Illinois",United States,ORD/KORD,30860251,2020,41.978611,-87.904724,North America
@@ -48,4 +48,3 @@
 47,United States San Francisco International Airport,"San Mateo County, California",United States,SFO/KSFO,16409625,2020,37.615223,-122.389977,North America
 48,Russia Moscow Domodedovo Airport,"Domodedovo, Moscow Oblast",Russia,DME/UUDD,16300000,2020,55.410307,37.902451,Europe
 49,China Beijing Daxing International Airport,"Daxing District, Beijing",China,PKX/ZBAD,16091449,2020,40.072498,116.597504,Asia
-50,United States Newark Liberty International Airport,"Newark, New Jersey",United States,EWR/KEWR,15892892,2020,74.17,40.6895314,North America
