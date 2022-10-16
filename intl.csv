@@ -1,0 +1,21 @@
+﻿Rank,Airport,Country,Connectivity Index,Dominant Carrier,Share of Flights at Hub (%)
+1,London Heathrow(LHR),United Kingdom,333,British Airways,52
+2,Chicago O'Hare(ORD),USA,306,United Airlines,48
+3,Frankfurt Airport (FRA),Germany,302,"Lufhansa	",63
+4,Amsterdam Schiphol (AMS),Netherlands,286,KLM,51
+5,Toronto Pearson (YYZ),Canada,271,"Air Canada	",60
+6,Los Angeles International (LAX),USA,257,American Airlines,21
+7,"Atlanta Hartsfield-Jackson (ATL)	USA",USA,256,Delta Air Lines,79
+8,Singapore Changi (SIN),Singapore,253,Singapore Airlines,23
+9,Paris-Charles de Gaulle (CDG),France,250,"Air France	",51
+10,Jakarta Soekarno-Hatta (CGK),Indonesia,249,Gaurda Indonesia,28
+11,Munich Airport (MUC),Germany,237,Lufthansa,59
+12,Kuala Lumpur International (KUL),Malaysia,233,AirAsia,30
+13,Hong Kong International (HKG),Hong Kong,230,Cathay Pacific,26
+14,Bangkok Suvarnabhumi (BKK),Thailand,230,"Thai Airways	",21
+15,Seoul Incheon (ICN),South Korea,216,Korean Air,23
+16,New York John F Kennedy (JFK),USA,207,Delta Air Lines,34
+17,Istanbul Ataturk (IST),Turkey,205,Turkish Airlines,80
+18,Dubai International (DXB),United Arab Emirates,194,Emirates,45
+19,Miami International (MIA),USA,192,American Airlines,75
+20,Mexico City International (MEX),Mexico,181,"Aeromexico	",46
