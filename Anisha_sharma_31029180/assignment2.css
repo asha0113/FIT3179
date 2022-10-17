@@ -1,0 +1,51 @@
+
+h1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+}
+img{
+    float: right;
+    margin: 5px;
+}
+
+.plane{
+  float: left;
+  margin: 5px;
+}
+
+.img2{
+  float: left;
+  margin: 5px;
+}
+
+.fullpage{
+    background-color: #f2ede8;
+}
+.column1 {
+    float: left;
+    width: 65%;
+  }
+  .column2 {
+    float: left;
+    width: 35%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column3 {
+    float: right;
+    width: 50%;
+  }
+  .column4{
+    float: left;
+    width: 50%;
+  }
+
+  .info{
+    align-items: center;
+  }

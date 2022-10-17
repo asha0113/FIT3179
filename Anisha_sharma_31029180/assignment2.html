@@ -1,0 +1,526 @@
+
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Airports</title>
+    <link rel = "stylesheet" href = "assignment2.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  </head>
+  <body>
+    <div class = "fullpage">
+        <h1> 
+            Airports of the World 
+            <!-- <img src = "airport.gif" width="200" height="50" class="img"> -->
+        </h1>
+        <p style="font-family:verdana">According to FlightAware, there are on average 9,728 planes with a total of 1,270,406 people at any given time.
+
+          This makes the skies the 159th most populous “country” in the world, above Cyprus, Fiji and many other countries.</p>
+          <p style="font-family:verdana" class="info"><br><strong>(Click image to track flight live!)</strong>
+          <a href="https://www.flightradar24.com/QTR87M/2ddccc1a">
+            <img src = "table/plane.jpeg" width="100" height="80" class="plane">
+          </a>
+          </p>
+        <br><br>
+        <div class="row">
+          <H3>LOCATIONS OF THE TOP 50 BUSIEST AIRPORTS(2020)</H3>
+          <div class="column1">
+            <div id="vis" class = "vega"></div>
+          </div>
+          <div class="column2">
+            <img src = "cancel.webp" width="300" height="180" class="img">
+            <p style="font-family:verdana">
+            This map shows the top 50 busisest airports in the year 2020. The air transport ecosystem and the airport sector in particular were among the industries most affected by the COVID-19 health crisis, due to the industry’s global nature. The second week of March 2020 came as a game-changer, when an overwhelming majority of national governments implemented strict confinement measures which eventually resulted in what the IMF later characterized as the “Great Lockdown”—the worst economic downturn since the Great Depression of the 1920s. The outbreak resulted in fundamental shifts in all the demand and supply parameters for air transportation and airport infrastructure and services.After a decade of consistent and robust growth in global passenger traffic, the COVID-19 pandemic virtually halted activity at airports around the world in the second quarter of 2020. As a result, the total number of passengers for the year fell sharply from 2019, to a level the world’s airports had not seen since 1997.
+          </p>
+          </div>
+        </div>
+        <br>
+    <div class="row">
+      <H3>TOP 10 BUSIEST AIRPORTS (2016-2020)</H3>
+      <div class = "column4">
+        <p style="font-family:verdana">The World Airport Traffic Dataset is the industry’s most comprehensive airport statistics dataset featuring airport traffic for over 2,600 airports in more than 180 countries and territories. It provides a view of air transport demand across the world’s airports in three areas: passengers (international and domestic), air cargo (freight and mail) and aircraft movements (air transport movements and general aviation).</p>
+        <p style="font-family:verdana">Airports around the world have been confronted with a sudden change that has steered them off their regular course. The COVID-19 pandemic has resulted in a monumental shift in airport operations. According to ACI World, global passenger traffic declined by an unprecedented -94.4% year-over-year in April 2020.</p>
+        <img src = "busy.jpeg" width="650" height="300" class="img2">
+      </div>
+      <div class="column3">
+        <div id = "vis2"></div>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <H3>TOP 20 MOST INTERNATIONALLY CONNECTED AIRPORTS</H3>
+      <div class = "column1">
+        <div id = "vis5"></div>
+      </div>
+      <div class="column2">
+        <br><br><br><br>
+        <table>
+          <tr>
+            <th>Airport</th>
+            <th>Dominant Carrier</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>London Heathrow (LHR)</td>
+            <td>British Airways</td>
+            <td><img src = "table/brit.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Chicago O’Hare (ORD)</td>
+            <td>United Airlines</td>
+            <td><img src = "table/united.webp" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Frankfurt Airport (FRA)</td>
+            <td>Lufthansa</td>
+            <td><img src = "table/lh.jpeg" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Amsterdam Schiphol (AMS)</td>
+            <td>KLM</td>
+            <td><img src = "table/klm.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Toronto Pearson (YYZ)</td>
+            <td>Air Canada</td>
+            <td><img src = "table/can.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Los Angeles International (LAX)</td>
+            <td>American Airlines</td>
+            <td><img src = "table/aa.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Atlanta Hartsfield-Jackson (ATL)</td>
+            <td>Delta Air Lines</td>
+            <td><img src = "table/delta.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Singapore Changi (SIN)</td>
+            <td>Singapore Airlines</td>
+            <td><img src = "table/sg.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Paris-Charles de Gaulle (CDG)</td>
+            <td>Air France</td>
+            <td><img src = "table/fr.jpeg" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Jakarta Soekarno-Hatta (CGK)</td>
+            <td>Gaurda Indonesia</td>
+            <td><img src = "table/ind.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Munich Airport (MUC)</td>
+            <td>Lufthansa</td>
+            <td><img src = "table/lh.jpeg" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Kuala Lumpur International (KUL)</td>
+            <td>AirAsia</td>
+            <td><img src = "table/airasia.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Hong Kong International (HKG)</td>
+            <td>Cathay Pacific</td>
+            <td><img src = "table/cp.jpg" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Bangkok Suvarnabhumi (BKK)</td>
+            <td>Thai Airways</td>
+            <td><img src = "table/thai.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Seoul Incheon (ICN)</td>
+            <td>Korean Air</td>
+            <td><img src = "table/kr.jpeg" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>New York John F Kennedy (JFK)</td>
+            <td>Delta Air Lines</td>
+            <td><img src = "table/delta.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Istanbul Ataturk (IST)</td>
+            <td>Turkish Airlines</td>
+            <td><img src = "table/turk.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Dubai International (DXB)</td>
+            <td>Emirates</td>
+            <td><img src = "table/emirates.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Miami International (MIA)</td>
+            <td>American Airlines</td>
+            <td><img src = "table/aa.png" width="50" height="30"></td>
+          </tr>
+          <tr>
+            <td>Mexico City International (MEX)e</td>
+            <td>Aeromexico</td>
+            <td><img src = "table/mex.png" width="50" height="30"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <br><br><br>
+    <H3>DOMESTIC FLIGHTS (AUSTRALIA)</H3>
+    <P style="font-family:verdana">The following data corresponds to domestic flights in australia. Data has been taken from 1984-2020 and has bee processed to present the changes in number of <span style="color:#26C0C0">passenger</span>/<span style="color:#FB53A0">aricraft</span> trips taken each year, as well as <span style="color:#d0004e">RPKs </span>and <span style="color:#f4a68b">ASKs</span> for each year.</P>
+    <p style="font-family:verdana"><span style="color:#d0004e">Revenue Passenger Kilometres (RPK)</span> or Revenue Passenger Miles (RPM) is an airline industry metric that shows the number of kilometres travelled by paying passengers. It is calculated as the number of revenue passengers multiplied by the total distance travelled. Since it measures the actual demand for air transport, it is often referred to as airline “traffic.”</p>
+    <p style="font-family:verdana"><span style="color:#f4a68b">Available Seat Kilometres (ASK)</span> is a measure of an airline's carrying capacity to generate revenue, taken from multiplying the available seats on any given aircraft by the number of kilometres flown on a given flight.</p>
+    <div id = "vis3"></div>
+    <br><br>
+    <div id = "vis4"></div>
+
+</div>
+
+    <script type="text/javascript">
+      var yourVlSpec = {
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": 800,
+"height": 400,
+"background": "#f2ede8",
+"title": "Top 50 Busiest Airports of 2020",
+"projection": {"type": "equalEarth"},
+"layer": [
+{
+"data": {
+"url": "https://raw.githubusercontent.com/JiazhouLiu/FIT3179/main/VegaLite/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+"format": {"type": "topojson", "feature":
+"ne_110m_admin_0_countries"}
+},
+
+"mark": {"type": "geoshape", "fill": "lightgray", "stroke":
+"white"}
+},
+{
+  "data": {
+"url":
+"https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+"format": {"type": "topojson", "feature": "oceans"}
+},
+"mark": {"type": "geoshape", "fill": "skyblue"}
+},
+{
+"data": {
+"url":
+"https://raw.githubusercontent.com/asha0113/FIT3179/main/Airports.csv"
+},
+"mark": {"type": "circle", "size": 100},
+"encoding": {
+"longitude": {"field": "Longitude", "type":
+"quantitative"},
+"latitude": {"field": "Latitude", "type":
+"quantitative"},
+"color": {
+"field": "Continent","type": "nominal",
+"scale": {
+"domain": [
+"North America",
+"South America",
+"Europe",
+"Africa",
+"Asia",
+"Oceania"
+],
+"range": [
+"#F3C130",
+"#FF5851",
+"#414A6B",
+"#B49A85",
+"#ED000099",
+"#CC6677"
+]
+}
+},
+"tooltip": [
+  {"field": "Airport", "type": "nominal"},
+  {"field": "Rank", "type": "ordinal"},
+  {"field": "Passengers", "type": "ordinal", "title": "Number of Passengers", "format": ","}
+]
+}
+}
+]
+}
+
+var bubblechart = {
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": 575,
+"height": 400,
+"background": "#f2ede8",
+"title": "Top 10 Airports",
+"data": {
+"url": "https://raw.githubusercontent.com/asha0113/FIT3179/fd8af708f93f161657f90837fd28da485616711d/Airports%202.csv"
+},
+"params": [
+{
+"name": "Continent_selection","bind": {
+"input": "select",
+"options": [
+null,
+"North America",
+"South America",
+"Europe",
+"Africa",
+"Asia",
+"Oceania"
+],
+"labels":[
+"Show All",
+"North America",
+"South America",
+"Europe",
+"Africa",
+"Asia",
+"Oceania"
+],
+"name": "Continent Selection: "
+}
+},
+{
+  "name": "Year_selection", "bind": {
+    "input": "select",
+    "options": [
+      null,
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "labels": [
+      "Show All",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "name": "Year Selection: "
+  }
+}
+],
+"transform": [
+{"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
+{"filter": "Year_selection == null || datum.Year == Year_selection"}
+
+],
+"mark": "circle",
+"encoding": {
+"x": {
+"field": "Passengers",
+"type": "quantitative",
+"title": "Number of passengers",
+"axis": {"tickCount": 7},
+"scale": {"type": "log", "domain": [25000000, 120000000]},
+"format": ".1s"
+},
+"y": {
+"field": "Rank",
+"type": "quantitative",
+"title": "Rank",
+"axis": {"tickCount": 7},
+"scale": {"type": "linear", "domain": [11, 0]}
+},
+"color": {
+"field": "Continent",
+"type": "nominal",
+"scale": {
+"domain": [
+"North America",
+"South America",
+"Europe",
+"Africa",
+"Asia",
+"Oceania"
+],
+"range": [
+"#F3C130",
+"#FF5851",
+"#414A6B",
+"#B49A85",
+"#ED000099",
+"#CC6677"
+]}
+},
+"opacity": {"value": 0.5},
+"size": {
+"field": "Rank",
+"type": "quantitative",
+"scale": {
+"type": "threshold",
+"domain": [2, 4, 6, 8, 10],
+"range":  [500, 350, 200, 100, 50]
+},
+"legend": {"format": ".1s"}
+},
+"tooltip": [
+{"field": "Rank", "type": "quantitative"},
+{"field": "Year", "type": "quantitative"},
+{"field": "Airport", "type": "nominal"},
+{"field": "Code", "type": "nominal", "title": "Airport Code"},
+{"field": "Country", "type": "nominal"},
+{"field": "Continent", "type": "nominal"},
+{"field": "Passengers", "type": "quantitative", "title": "Number of Passengers"}
+]
+}
+}
+
+var barchart = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/asha0113/FIT3179/main/Book1.csv"},
+  "background": "#f2ede8",
+  "hconcat":[
+    {
+  "title": "Passenger Trips (Domestic flights, Australia)",
+  "width": 620,
+"height": 400,
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Year_indv", "type": "temporal", "title": "Year"},
+    "y": {"field": "Sum of Passenger_Trips", "type": "quantitative", "title": "Sum of Passenger Trips"},
+  "tooltip":[
+    {"field": "Year_indv", "type": "temporal", "title": "Year", "timeUnit": "year"},
+    {"field": "Sum of Passenger_Trips", "type": "quantitative", "title": "Sum of Passenger Trips", "format": ","}
+  ],
+   "color": {"value": "#26C0C0"}
+  }
+},
+{
+  "title": "Aircraft Trips (Domestic flights, Australia)",
+  "width": 620,
+"height": 400,
+  "mark": "bar",
+   "encoding": {
+    "x": {"field": "Year_indv", "type": "temporal", "title": "Year"},
+    "y": {"field": "Sum of Aircraft_Trips", "type": "quantitative", "title": "Sum of Aircraft Trips"},
+  "tooltip":[
+    {"field": "Year_indv", "type": "temporal", "title": "Year", "timeUnit": "year"},
+    {"field": "Sum of Aircraft_Trips", "type": "quantitative", "title": "Sum of Aircraft Trips", "format": ","}
+  ],
+   "color": {"value": "#FB53A0"}
+  }
+
+}
+  ]
+}
+
+var linechart = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/asha0113/FIT3179/main/rpk.csv"},
+  "background": "#f2ede8",
+  "hconcat":[
+    {
+  "title": "RPK (Domestic flights, Australia)",
+  "width": 600,
+"height": 400,
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year_indv", "type": "temporal", "title": "Year"},
+    "y": {"field": "Sum of RPK", "type": "quantitative", "title": "Sum of RPKs"},
+  "tooltip":[
+    {"field": "Year_indv", "type": "temporal", "title": "Year", "timeUnit": "year"},
+    {"field": "Sum of RPK", "type": "quantitative", "title": "Sum of RPKs", "format": ","}
+  ],
+   "color": {"value": "#d0004e"}
+  }
+},
+{
+  "title": "ASK (Domestic flights, Australia)",
+  "width": 600,
+"height": 400,
+  "mark": "line",
+   "encoding": {
+    "x": {"field": "Year_indv", "type": "temporal", "title": "Year"},
+    "y": {"field": "Sum of ASK", "type": "quantitative", "title": "Sum of ASKs"},
+  "tooltip":[
+    {"field": "Year_indv", "type": "temporal", "title": "Year", "timeUnit": "year"},
+    {"field": "Sum of ASK", "type": "quantitative", "title": "Sum of ASKs", "format": ","}
+  ],
+   "color": {"value": "#f4a68b"}
+  }
+}
+  ]
+
+}
+
+var flagchart = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+"height": 1000,
+"title": "Top 20 world’s most internationally connected airports",
+"background": "#f2ede8",
+"layer":[
+  {
+    "data": {
+    "values": [
+      {"x": 333, "y": 1, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/uk.webp", "z": "London Heathrow (LHR)"},
+      {"x": 306, "y": 2, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/usa.webp", "z": "Chicago O’Hare (ORD)"},
+      {"x": 302, "y": 3, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/germany.webp", "z": "Frankfurt Airport (FRA)"},
+       {"x": 286, "y": 4, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/%20netherlands.webp", "z": "Amsterdam Schiphol (AMS)"},
+        {"x": 271, "y": 5, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/canada.webp", "z": "Toronto Pearson (YYZ)"},
+         {"x": 257, "y": 6, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/usa.webp", "z": "Los Angeles International (LAX)"},
+          {"x": 256, "y": 7, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/usa.webp", "z": "LondAtlanta Hartsfield-Jackson (ATL)"},
+    {"x": 253, "y": 8, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/singapore.webp", "z": "Singapore Changi (SIN)"},
+    {"x": 250, "y": 9, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/france.webp", "z": "Paris-Charles de Gaulle (CDG)"},
+    {"x": 249, "y": 10, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/indonesia.webp", "z": "Jakarta Soekarno-Hatta (CGK)"},
+    {"x": 237, "y": 11, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/germany.webp", "z": "Munich Airport (MUC)"},
+    {"x": 233, "y": 12, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/malaysia.webp", "z": "Kuala Lumpur International (KUL)"},
+    {"x": 230, "y": 13, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/hongkong.webp", "z": "Hong Kong International (HKG)"},
+    {"x": 230, "y": 14, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/thailand.webp", "z": "Bangkok Suvarnabhumi (BKK)"},
+    {"x": 216, "y": 15, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/korea.webp", "z": "Seoul Incheon (ICN)"},
+    {"x": 207, "y": 16, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/usa.webp", "z": "New York John F Kennedy (JFK)"},
+    {"x": 205, "y": 17, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/turkey.webp", "z": "Istanbul Ataturk (IST)"},
+    {"x": 194, "y": 18, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/uae.webp", "z": "Dubai International (DXB))"},
+    {"x": 192, "y": 19, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/usa.webp", "z": "Miami International (MIA)"},
+    {"x": 181, "y": 20, "img": "https://raw.githubusercontent.com/asha0113/FIT3179/main/flags/mexico.webp", "z": "Mexico City International (MEX)"}
+    ]
+    },
+    "params": [
+    {
+      "name": "ci_Above",
+      "value": 180,
+      "bind": {
+        "input": "range",
+        "min": 180,
+        "max": 350,
+        "step": 10,
+        "name": "Minimum Connectivity Index: "
+      }
+    }],
+    "mark": {"type": "image", "width": 50, "height": 50},
+      "encoding": {
+    "x": {
+      "field": "x", 
+      "type": "quantitative", 
+      "title": "Connectivity Index", 
+      "scale": {"domain" : [170, 350]}
+      },
+    "y": {
+      "field": "y", 
+      "type": "quantitative", 
+      "title": "Rank",
+      "scale": {"domain" : [0, 22]}
+    },
+    "url": {"field": "img", "type": "nominal"},
+    "tooltip": [
+      {"field": "y", "type": "quantitative", "title": "Rank"},
+      {"field": "z", "type": "nominal", "title": "Airport"},
+      {"field": "x", "type": "quantitative", "title": "Conectivity Index"}
+    ]
+}
+  }
+]
+}
+      vegaEmbed('#vis', yourVlSpec, { "actions": false });
+      vegaEmbed('#vis2', bubblechart, { "actions": false });
+      vegaEmbed('#vis3', barchart, { "actions": false });
+      vegaEmbed('#vis4', linechart, { "actions": false });
+      vegaEmbed('#vis5', flagchart, { "actions": false });
+    </script>
+  </body>
+</html>
